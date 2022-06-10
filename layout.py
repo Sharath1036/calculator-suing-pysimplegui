@@ -1,0 +1,10 @@
+layout = [[sg.Txt(''  * 10)],                      
+          [sg.Text('', size=(15, 1), font=('Chesterish', 16), text_color='black', key='input')],
+          [sg.Txt(''  * 10)],
+          [sg.ReadFormButton('('), sg.ReadFormButton(')'), sg.ReadFormButton('AC'), sg.ReadFormButton('DEL')],
+          [sg.ReadFormButton('7'), sg.ReadFormButton('8'), sg.ReadFormButton('9'), sg.ReadFormButton('÷')],
+          [sg.ReadFormButton('4'), sg.ReadFormButton('5'), sg.ReadFormButton('6'), sg.ReadFormButton('x')],
+          [sg.ReadFormButton('1'), sg.ReadFormButton('2'), sg.ReadFormButton('3'), sg.ReadFormButton('-')],
+          [sg.ReadFormButton('.'), sg.ReadFormButton('0'), sg.ReadFormButton('='), sg.ReadFormButton('+')],
+          [sg.ReadFormButton('MOD')],
+          ]
